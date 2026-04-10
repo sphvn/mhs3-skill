@@ -1,0 +1,112 @@
+---
+name: mhs3
+description: >
+  Factual reference database for Monster Hunter Stories 3: Twisted Reflection (MHS3).
+  Use this skill whenever the user asks ANYTHING about MH Stories 3 — monsties, genes,
+  builds, eggs, combat, weapons, tier lists, walkthrough advice, or game mechanics.
+  This skill exists because LLMs confidently hallucinate MH data from other titles
+  (MH Rise, MH World, MH Stories 2). ALWAYS consult this skill instead of relying on
+  training data for MHS3-specific facts. Trigger on: Monster Hunter Stories 3, MHS3,
+  MH Stories 3, monsties, monstie builds, gene bingo, rite of channeling, egg patterns,
+  kinship gauge, head-to-head, Azuria, Canalta, Tarkuan, Serathis, Twisted Reflection,
+  or any monster name in a Stories 3 context.
+---
+
+# MHS3 Factual Reference Skill
+
+## PURPOSE
+
+This skill is the **source of truth** for Monster Hunter Stories 3: Twisted Reflection.
+LLMs will hallucinate MHS3 data from MH World, Rise, or Stories 2. **Never answer MHS3
+questions from training data alone.** Always load the appropriate reference file first.
+
+## CORE FACTS (always in context)
+
+### Game Overview
+- **Title**: Monster Hunter Stories 3: Twisted Reflection
+- **Launch**: March 13, 2026 | PS5, Xbox Series X|S, Switch 2, PC (Steam)
+- **Genre**: Turn-based RPG (NOT action — this is the Stories spinoff)
+- **Monsties**: 84 hatchable | Ranks 1–7
+- **Regions**: Azuria (start), Canalta (mid), Tarkuan (mid-late), Serathis (late)
+- **Multiplayer**: PvP Network Battles only. **No co-op.** Story is single-player.
+
+### Starter Monsties
+- **Ratha (Rathalos)**: Fire/Power — your first monstie, King of the Skies
+- **Tobi-Kadachi**: Thunder/Speed — early addition
+- **Yian Kut-Ku**: Fire/Speed — early addition
+These three cover Power + Speed (no early Technical — fill this gap from dens)
+
+### Day/Night Cycle
+- Different monsters spawn day vs night; some are night-exclusive
+- Elder Dragons (post-game) are **night-only** spawns
+- Rest at camp to change time of day
+
+### Attack Type Triangle
+```
+Power (red)  → beats Speed
+Speed (blue) → beats Technical
+Technical (green) → beats Power
+```
+
+### Elemental Matchups
+| Element   | Strong vs | Weak to |
+|-----------|-----------|---------|
+| Fire      | Ice       | Water   |
+| Water     | Fire      | Thunder |
+| Thunder   | Water     | Ice     |
+| Ice       | Thunder   | Fire    |
+| Dragon    | Dragon    | Dragon  |
+| Non-Elem  | —         | —       |
+
+### Weapon Types (6 total)
+| Weapon       | Damage  | Mechanic             |
+|--------------|---------|----------------------|
+| Great Sword  | Slash   | Charge Gauge         |
+| Long Sword   | Slash   | Spirit Gauge/Stances |
+| Hammer       | Blunt   | Stun / Head targeting|
+| Hunting Horn | Blunt   | Melody buffs (RGB)   |
+| Bow          | Pierce  | Coatings / Status    |
+| Gunlance     | Pierce  | Shells / Guard       |
+
+Slash → tails/wings | Blunt → heads/shells | Pierce → bodies/soft spots
+
+### Rite of Channeling (MHS3 change from MHS2)
+- **No monstie sacrifice required** — transfer genes freely between monsties
+- Genes can be rearranged within a monstie's grid at any time
+- Use Gene Search (L3/V) to find which species carry specific genes
+
+## REFERENCE FILE ROUTING
+
+Based on the user's question, load the appropriate reference file **before answering**.
+
+| Question About | Load This File | Examples |
+|---|---|---|
+| Specific monstie stats, locations, elements, types | `references/monsties.md` | "What type is Zinogre?" "Where do I find Deviljho?" |
+| Gene system, bingo, passive skills, specific builds, affinity effects | `references/genes-and-builds.md` | "Best genes for Nergigante?" "How does bingo work?" "What does STR mean on a skill?" |
+| Combat mechanics, head-to-head, kinship, weapons | `references/combat-weapons.md` | "How do double attacks work?" "Best weapon for X?" |
+| Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" "Potency explained" |
+| Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" "Should I go dual element?" |
+| Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" "What does Ogden do?" |
+| Tier rankings, best monsties, team composition | `references/monsties.md` (tier section at bottom) | "Best monsties?" "S tier?" |
+
+**If the question spans multiple domains**, load the most relevant file first, answer that part, then load additional files as needed.
+
+## SEARCH FLAG: WHEN TO SEARCH THE WEB
+
+The local data is based on launch-window sources (March–April 2026). **Search the web** when:
+- User asks about **balance patches or updates** after launch
+- User asks about **DLC monsties** or new content drops
+- User asks about **current meta** or whether tier rankings have shifted
+- User references a **monstie, gene, or mechanic you don't find** in the reference files
+- User asks about **community discoveries** or speedrun strategies
+
+When searching, prefer these sources: mhstories3.wiki, game8.co (MHS3 section),
+lescarnetsdelawycademie.fr, monsterhunterwiki.org (MHST3 pages).
+
+## ANTI-HALLUCINATION RULES
+
+1. If a monstie is NOT in `references/monsties.md`, do NOT guess its stats — say it's not in your database and offer to search.
+2. Do NOT mix MHS3 data with MH World, Rise, Sunbreak, or Stories 2 mechanics. They differ significantly.
+3. Gene names, skill effects, and stat numbers must come from the reference files or a verified search. Never fabricate gene effects.
+4. MHS3 has **no co-op multiplayer**. Only PvP Network Battles. Do not claim otherwise.
+5. The Rite of Channeling does **not** sacrifice the donor monstie in MHS3. This changed from MHS2.
