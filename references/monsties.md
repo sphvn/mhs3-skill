@@ -1,10 +1,10 @@
-# MHS3 Monsties Reference — All 84 Hatchable Monsties
+# MHS3 Monsties Reference — All 87 Hatchable Monsties
 
 ## Complete Monstie Table
 
 Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalta, Ta=Tarkuan, Se=Serathis, PG=Post-game
 
-### Flying Wyverns (23)
+### Flying Wyverns (24)
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
 | Rathalos | Fire | P | 5 | Az |
@@ -30,8 +30,9 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Diablos | Non-Elem | P | 5 | Ta |
 | Black Diablos | Non-Elem | P | 6 | Ta |
 | Bloodbath Diablos | Non-Elem | P | 7 | Ta |
+| Espinas | Fire | P | 6 | Ta |
 
-### Leviathans (5)
+### Leviathans (6)
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
 | Mizutsune | Water | T | 5 | Az |
@@ -39,6 +40,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Lagiacrus | Thunder | T | 5 | Az |
 | Ivory Lagiacrus | Thunder | T | 6 | Az |
 | Royal Ludroth | Water | T | 3 | Az |
+| Aurora Somnacanth | Ice | T | 5 | Ca |
 
 ### Brute Wyverns (8)
 | Name | Element | Type | Rank | Region |
@@ -52,7 +54,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Radobaan | Non-Elem | P | 4 | Ca |
 | Uragaan | Fire | P | 5 | Ta |
 
-### Fanged Wyverns (6)
+### Fanged Wyverns (7)
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
 | Zinogre | Thunder | P | 5 | Ca |
@@ -61,6 +63,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Tobi-Kadachi | Thunder | S | 3 | Az |
 | Odogaron | Non-Elem | S | 5 | Ca |
 | Magnamalo | Dragon | P | 6 | Se |
+| Lunagaron | Ice | S | 5 | Se |
 
 ### Fanged Beasts (8)
 | Name | Element | Type | Rank | Region |
@@ -145,9 +148,9 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Region | Monstie Count | Rank Range | Biome |
 |---|---|---|---|
 | Azuria | 28 | 1–5 | Grasslands, coasts (starting region) |
-| Canalta | 22 | 3–6 | Timberlands, mountains |
-| Tarkuan | 18 | 4–6 | Volcanic deserts, rocky terrain |
-| Serathis | 10 | 5–7 | Frozen peaks, crystal caverns |
+| Canalta | 23 | 3–6 | Timberlands, mountains |
+| Tarkuan | 19 | 4–6 | Volcanic deserts, rocky terrain |
+| Serathis | 11 | 5–7 | Frozen peaks, crystal caverns |
 | Post-game | 8 | 7 | Elder Dragon dens |
 
 ---
@@ -206,9 +209,6 @@ Velocidrome, Yian Kut-Ku, Arzuros, Aptonoth
 ## Regional Team Recommendations (Story Progression)
 
 Source: game8.co — recommended monsties per region with acquisition notes.
-
-⚠️ Some monsties below (Aurora Somnacanth, Espinas, Lunagaron) are NOT in the 84-monstie table above.
-They may be from updates, DLC, or data our initial database missed. Verify via web search if asked.
 
 ### Azuria (Early Game)
 | Monstie | Type | Element | How to Get |
