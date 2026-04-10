@@ -75,19 +75,41 @@ Slash → tails/wings | Blunt → heads/shells | Pierce → bodies/soft spots
 - Genes can be rearranged within a monstie's grid at any time
 - Use Gene Search (L3/V) to find which species carry specific genes
 
+## READING SCREENSHOTS
+
+When the user shares a monstie screenshot, the icons next to the monstie name read:
+**(attack type) (element) (bonus element)**
+
+- First icon: Power (red triangle) / Speed (blue triangle) / Technical (green triangle)
+- Second icon: Primary element (Fire/Water/Thunder/Ice/Dragon/Non-Elem)
+- Third icon: Bonus element from Dual Element system (absent if single-element)
+
+The stat panel shows: HP, Attack, Crit Rate, Wyvernfell, Speed, Defense, Stamina (Starting/Max/Recovery), Kinship Gauge, Elem Res, and the 3×3 gene grid.
+
 ## REFERENCE FILE ROUTING
 
 Based on the user's question, load the appropriate reference file **before answering**.
 
 | Question About | Load This File | Examples |
 |---|---|---|
-| Specific monstie stats, locations, elements, types | `references/monsties.md` | "What type is Zinogre?" "Where do I find Deviljho?" |
-| Gene system, bingo, passive skills, specific builds, affinity effects | `references/genes-and-builds.md` | "Best genes for Nergigante?" "How does bingo work?" "What does STR mean on a skill?" |
-| Combat mechanics, head-to-head, kinship, weapons | `references/combat-weapons.md` | "How do double attacks work?" "Best weapon for X?" |
-| Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" "Potency explained" |
-| Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" "Should I go dual element?" |
-| Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" "What does Ogden do?" |
-| Tier rankings, best monsties, team composition | `references/monsties.md` (tier section at bottom) | "Best monsties?" "S tier?" |
+| Monstie stats, locations, types, riding actions | `references/monsties.md` | "What type is Zinogre?" "Where do I find Deviljho?" |
+| Tier rankings, best monsties, team composition, regional teams | `references/monsties.md` (tier section) | "Best monsties?" "S tier?" "Best team for Canalta?" |
+| Gene system, bingo, passive skills, builds, affinity effects | `references/genes-and-builds.md` | "Best genes for Nergigante?" "How does bingo work?" |
+| Combat mechanics, head-to-head, kinship, weapon mechanics | `references/combat-weapons.md` | "How do double attacks work?" "How does spirit gauge work?" |
+| Comparing weapons across types, general weapon recs | `references/weapons-index.md` | "Best fire weapon?" "Weapon comparison" |
+| Specific Great Sword options | `references/weapons-great-sword.md` | "Best great sword?" "GS with dragon element?" |
+| Specific Long Sword / Katana options | `references/weapons-long-sword.md` | "Best long sword?" "Kadachi katana?" |
+| Specific Hammer options | `references/weapons-hammer.md` | "Best hammer?" "Blunt weapons list?" |
+| Specific Hunting Horn options | `references/weapons-hunting-horn.md` | "Best hunting horn?" "HH with healing?" |
+| Specific Bow options | `references/weapons-bow.md` | "Best bow?" "Bow with paralysis?" |
+| Specific Gunlance options | `references/weapons-gunlance.md` | "Best gunlance?" "GL with fire?" |
+| Armor sets, defense, armor skills | `references/armor.md` | "Best fire armor?" "Armor with crit skills?" |
+| Equipment skills, decorations, deco slots | `references/skills-and-decorations.md` | "What does Attack Boost do?" "How do decorations work?" |
+| Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" |
+| Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" |
+| Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" |
+
+**Weapon routing heuristic**: If the user names a weapon TYPE, load that type's file. If comparing across types, load `weapons-index.md`. If asking about weapon MECHANICS (charge gauge, spirit gauge, coatings), load `combat-weapons.md`.
 
 **If the question spans multiple domains**, load the most relevant file first, answer that part, then load additional files as needed.
 

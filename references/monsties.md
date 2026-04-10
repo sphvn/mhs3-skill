@@ -200,3 +200,51 @@ Velocidrome, Yian Kut-Ku, Arzuros, Aptonoth
 - **Balanced PvE**: Dreadqueen Rathian (S/Fire) + Boltreaver Astalos (T/Thunder) + Ruiner Nergigante (P/Dragon)
 - **Elemental coverage**: Add Velkhana (Ice) or Namielle (Water) to the above
 - **PvP**: Velkhana (Skill Seal) + burst damage option + status pressure
+
+---
+
+## Regional Team Recommendations (Story Progression)
+
+Source: game8.co — recommended monsties per region with acquisition notes.
+
+⚠️ Some monsties below (Aurora Somnacanth, Espinas, Lunagaron) are NOT in the 84-monstie table above.
+They may be from updates, DLC, or data our initial database missed. Verify via web search if asked.
+
+### Azuria (Early Game)
+| Monstie | Type | Element | How to Get |
+|---|---|---|---|
+| Dreadqueen Rathian | Speed | Fire | Rathian/Pink Rathian Ecosystem Rank S + 3 Poison-skill monsters |
+| Boltreaver Astalos | Technical | Thunder | Astalos Ecosystem Rank A + 3 Thunder monsters |
+| Purple Gypceros | Power | Non-Elem | Immediately available in Broadleaf Basin |
+
+All except Purple Gypceros available after the Endangered Species main story quest. Dreadqueen and Boltreaver have Solar Cry (raises Kinship Gauge by 30) — crucial for hard fights.
+
+### Canalta Timberland (Mid Game)
+| Monstie | Type | Element | How to Get |
+|---|---|---|---|
+| Deviljho | Power | Dragon | Northeast of Cataracts Camp, force retreat |
+| Deadeye Yian Garuga | Speed | Fire | Yian Garuga Rank S + 3 five-star minimum monsters |
+| Green Nargacuga | Speed | Non-Elem | Nargacuga Rank A Habitat Restoration |
+| Aurora Somnacanth | Technical | Ice | Eggs in Mt. Canalta |
+
+Deviljho and Deadeye Yian Garuga apply Wyvernsoul Defense Down, enabling faster knockdowns. Covers Dragon, Fire, and Ice damage.
+
+### Tarkuan (Mid-Late)
+| Monstie | Type | Element | How to Get |
+|---|---|---|---|
+| Espinas | Power | Fire | Bountiful Dunes or Secret Espinas retreat in Azuria |
+| Brute Tigrex | Power | Non-Elem | Tigrex Rank A any habitat |
+| Ivory Lagiacrus | Speed | Thunder | Lagiacrus Rank A Habitat Restoration |
+| Stygian Zinogre | Technical | Dragon | Zinogre Rank A Habitat Restoration |
+
+All four can apply debuffs that stall enemies. Espinas inflicts Noxious Poison for continuous damage — top-tier pick.
+
+### Serathis (Late Game)
+| Monstie | Type | Element | How to Get |
+|---|---|---|---|
+| Deviljho | Power | Dragon | Eggs in Sacrosanctum/Lazlion, Serathis |
+| Magnamalo | Speed | Non-Elem | Tigrex Rank A any habitat |
+| Lunagaron | Speed | Ice | Eggs in Old Capital Road, Serathis |
+| Boltreaver Astalos | Technical | Thunder | Astalos Rank A + 3 Thunder monsters |
+
+Maximize attack and defense for endgame. Many late-story bosses are weak to Dragon (Deviljho essential). Magnamalo provides Blastblight burst damage. Boltreaver's Solar Cry remains invaluable.

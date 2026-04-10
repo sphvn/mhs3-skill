@@ -12,33 +12,47 @@ Designed for Sonnet and lighter models with progressive context loading:
 
 ```
 mhs3/
-├── SKILL.md                          (~1.1K tokens — always loaded, routing + core mechanics)
+├── SKILL.md                          (~1.3K tokens — always loaded, routing + core mechanics + screenshot rules)
 ├── references/
-│   ├── monsties.md                   (~2K tokens — all 84 monsties + tier list + Elder Dragon unlock)
+│   ├── monsties.md                   (~2.5K tokens — 84 monsties + tier list + regional team recs)
 │   ├── genes-and-builds.md           (~1.9K tokens — gene system, affinity effects, bingo, passives, builds)
 │   ├── building-guide.md             (~1.8K tokens — tendencies, dual element, ecosystem rank, archetypes)
-│   ├── combat-weapons.md             (~1K tokens — PST triangle, H2H, weapons, field tips)
+│   ├── combat-weapons.md             (~1K tokens — PST triangle, H2H, weapon mechanics, field tips)
+│   ├── weapons-index.md              (~600 tokens — cross-type overview + standout picks)
+│   ├── weapons-great-sword.md        (~500 tokens — 29 Great Swords)
+│   ├── weapons-long-sword.md         (~500 tokens — 29 Long Swords / Katanas)
+│   ├── weapons-hammer.md             (~600 tokens — 37 Hammers)
+│   ├── weapons-hunting-horn.md       (~500 tokens — 29 Hunting Horns)
+│   ├── weapons-bow.md                (~400 tokens — 19 Bows)
+│   ├── weapons-gunlance.md           (~400 tokens — 17 Gunlances)
+│   ├── armor.md                      (~1.5K tokens — ~85 armor sets sorted by defense)
+│   ├── skills-and-decorations.md     (~800 tokens — skill system overview + decoration mechanics)
 │   ├── eggs.md                       (~1.2K tokens — patterns, potency, locations, SR tickets, farming)
 │   └── battle-allies.md              (~750 tokens — 6 partners, tier rankings, scenario picks)
 └── README.md
 ```
 
 **Typical query**: ~2–3K tokens (SKILL.md + 1 reference file)
-**Full load**: ~10K tokens (all files)
+**Full load**: ~15K tokens (all files)
+
+Weapon catalog is split by type — asking about Long Swords loads only the 29 katanas (~500 tokens), not all 160+ weapons.
 
 ## What's Covered
 
-- **84 monsties** — element, attack type, rank, region, species classification
+- **84 monsties** — element, attack type, rank, region, species classification, regional team recs
 - **Gene system** — 3×3 grid, Bingo mechanics (multiplicative stacking), Rainbow Gene strategy
 - **Affinity Effects** — all 16 skill modifier suffixes (STR, ATK, SKL, CRFT, etc.)
 - **Passive skills** — full table with actual stat values from in-game testing
 - **Tier list** — S through D rankings with search flag for post-launch updates
 - **Combat** — PST triangle, Head-to-Head, Double Attacks, Kinship, Wyvernsoul
-- **Weapons** — all 6 types with damage categories and mechanics
+- **Weapon catalog** — 160+ weapons split by type (GS, LS, Hammer, HH, Bow, GL) with elements, deco slots, skills
+- **Armor catalog** — ~85 armor sets with defense, deco slots, skills, sorted by defense + top picks by role
+- **Skills & decorations** — rider skill system overview, decoration mechanics, common skills reference
 - **Eggs** — patterns by genus, potency levels, locations by region, SR Expedition Tickets
 - **Battle allies** — all 6 partners with weapons, elements, monsties, per-scenario recommendations
 - **Advanced building** — tendencies, dual element math, ecosystem rank, excursion bonuses, build archetypes
 - **Elder Dragons** — unlock pipeline, unique abilities, night-only spawns
+- **Screenshot interpretation** — monstie icon reading (attack type / element / bonus element)
 
 ## Data Freshness
 
