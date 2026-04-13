@@ -86,6 +86,8 @@ When the user shares a monstie screenshot, the icons next to the monstie name re
 
 The stat panel shows: HP, Attack, Crit Rate, Wyvernfell, Speed, Defense, Stamina (Starting/Max/Recovery), Kinship Gauge, Elem Res, and the 3×3 gene grid.
 
+**Caution icon**: The dragon-shaped icon above overworld monsters (red/yellow) means the monster is a much higher level than you. Can be toggled in Options > Game Settings > Caution Icon Display.
+
 ## REFERENCE FILE ROUTING
 
 Based on the user's question, load the appropriate reference file **before answering**.

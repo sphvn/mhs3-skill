@@ -112,3 +112,7 @@ Weapons are crafted/upgraded using monster materials. Each weapon has branching 
 - **Hold A to gather** items in the field instead of tapping repeatedly — much faster for bulk collection
 - **Combining Menu** is how you craft potions, traps, and consumables — recipes are purchased from vendors (not discovered automatically)
 - Swap weapons between fights freely — the game encourages matching damage type to the encounter
+
+## Recommended Settings
+- **Options > Camera > Auto-Centering → OFF**: Defaults to on, which forces the camera to follow movement direction. Turning it off gives manual analog stick control — lets you run while looking behind you, scout surroundings, etc. Much better for exploration.
+- **Options > Game Settings > Caution Icon Display**: Controls the dragon icon above overworld monsters that are much higher level than you. Toggle off if you find it distracting.
