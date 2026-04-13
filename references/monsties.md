@@ -1,4 +1,4 @@
-# MHS3 Monsties Reference — All 87 Hatchable Monsties
+# MHS3 Monsties Reference — All 88 Hatchable Monsties
 
 ## Complete Monstie Table
 
@@ -65,11 +65,12 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Magnamalo | Dragon | P | 6 | Se |
 | Lunagaron | Ice | S | 5 | Se |
 
-### Fanged Beasts (8)
+### Fanged Beasts (9)
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
 | Rajang | Thunder | P | 6 | Se |
 | Gammoth | Ice | P | 5 | Ca |
+| Canyne (Palamute) | Non-Elem | S | 5 | Ca |
 | Arzuros | Non-Elem | P | 1 | Az |
 | Lagombi | Ice | S | 2 | Az |
 | Congalala | Non-Elem | P | 3 | Ca |
@@ -148,7 +149,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Region | Monstie Count | Rank Range | Biome |
 |---|---|---|---|
 | Azuria | 28 | 1–5 | Grasslands, coasts (starting region) |
-| Canalta | 23 | 3–6 | Timberlands, mountains |
+| Canalta | 24 | 3–6 | Timberlands, mountains |
 | Tarkuan | 19 | 4–6 | Volcanic deserts, rocky terrain |
 | Serathis | 11 | 5–7 | Frozen peaks, crystal caverns |
 | Post-game | 8 | 7 | Elder Dragon dens |

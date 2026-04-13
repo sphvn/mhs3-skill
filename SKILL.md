@@ -26,7 +26,7 @@ questions from training data alone.** Always load the appropriate reference file
 - **Title**: Monster Hunter Stories 3: Twisted Reflection
 - **Launch**: March 13, 2026 | PS5, Xbox Series X|S, Switch 2, PC (Steam)
 - **Genre**: Turn-based RPG (NOT action — this is the Stories spinoff)
-- **Monsties**: 87 hatchable | Ranks 1–7
+- **Monsties**: 88 hatchable | Ranks 1–7
 - **Regions**: Azuria (start), Canalta (mid), Tarkuan (mid-late), Serathis (late)
 - **Multiplayer**: PvP Network Battles only. **No co-op.** Story is single-player.
 
