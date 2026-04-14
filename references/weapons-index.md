@@ -39,5 +39,5 @@ For a specific weapon type's full catalog, see the per-type file listed below.
 
 - **Name**: Weapon name
 - **Element**: Non-Elemental, Fire, Water, Thunder, Ice, or Dragon
-- **Deco Slots**: 0–3 decoration slots for rider skills
+- **Deco Slots**: 0–3 weapon decoration slots (for active combat skills — NOT passive rider skills)
 - **Skills**: Weapon skills with affinity suffixes (see `genes-and-builds.md` for suffix meanings)

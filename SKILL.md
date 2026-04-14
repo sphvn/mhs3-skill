@@ -129,7 +129,7 @@ Based on the user's question, load the appropriate reference file **before answe
 | Specific Bow options | `references/weapons-bow.md` | "Best bow?" "Bow with paralysis?" |
 | Specific Gunlance options | `references/weapons-gunlance.md` | "Best gunlance?" "GL with fire?" |
 | Armor sets, defense, armor skills | `references/armor.md` | "Best fire armor?" "Armor with crit skills?" |
-| Equipment skills, decorations, deco slots | `references/skills-and-decorations.md` | "What does Attack Boost do?" "How do decorations work?" |
+| Skills, decorations, weapon decos, armor decos, deco slots | `references/skills-and-decorations.md` | "What does Attack Boost do?" "How do decorations work?" "What decos for my bow?" |
 | Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" |
 | Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" |
 | Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" |

@@ -56,7 +56,7 @@ Weapon catalog is split by type — asking about Long Swords loads only the 29 k
 - **Combat** — PST triangle, Head-to-Head, Double Attacks, Kinship, Wyvernsoul
 - **Weapon catalog** — 160+ weapons split by type (GS, LS, Hammer, HH, Bow, GL) with elements, deco slots, skills
 - **Armor catalog** — ~85 armor sets with defense, deco slots, skills, sorted by defense + top picks by role
-- **Skills & decorations** — rider skill system overview, decoration mechanics, common skills reference
+- **Skills & decorations** — weapon vs armor deco distinction, weapon deco catalog by type, armor deco passives, acquisition methods
 - **Eggs** — patterns by genus, potency levels, locations by region, SR Expedition Tickets
 - **Battle allies** — all 6 partners with weapons, elements, monsties, per-scenario recommendations
 - **Gene sources** — gene → monstie → region mapping for farming answers
