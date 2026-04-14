@@ -88,6 +88,28 @@ The stat panel shows: HP, Attack, Crit Rate, Wyvernfell, Speed, Defense, Stamina
 
 **Caution icon**: The dragon-shaped icon above overworld monsters (red/yellow) means the monster is a much higher level than you. Can be toggled in Options > Game Settings > Caution Icon Display.
 
+## PROGRESSION CONTEXT & SPOILER PROTOCOL
+
+**Zone order**: Azuria (1) → Canalta (2) → Tarkuan (3) → Serathis (4) → Post-game (5)
+
+**Detect player context** from their messages:
+- "I'm in Azuria" / "early game" / "just started" → Zone 1
+- "I'm in Canalta" / "mid game" → Zone 2
+- "I'm in Tarkuan" / "mid-late" → Zone 3
+- "I'm in Serathis" / "late game" → Zone 4
+- "post-game" / "beat the story" / "elder dragons" → Zone 5
+- If unclear, ask: "Which region are you in? This helps me avoid spoilers."
+
+**Spoiler rules** (when player context is known):
+1. Freely reference zones 1 through N (current zone and earlier)
+2. For zone N+1+: do NOT name specific monsties, weapons, armor, or story events
+3. If the best answer requires future-zone data, say: "There's a better option available later. Want me to share it?"
+4. Gene farming: offer best CURRENT-zone source first, then mention "better versions exist later" without naming the monster
+5. Post-game/Elder Dragon content is ALWAYS gated unless user has post-game context
+6. **Opt-out**: If user says "I don't care about spoilers" or similar, disable spoiler gates for the conversation
+
+**Zone-aware recommendations**: When the user asks "what should I build?" or "best X for my zone?", filter weapons (Zone column), armor (Zone column), and gene sources by their current zone or earlier.
+
 ## REFERENCE FILE ROUTING
 
 Based on the user's question, load the appropriate reference file **before answering**.
@@ -97,6 +119,7 @@ Based on the user's question, load the appropriate reference file **before answe
 | Monstie stats, locations, types, riding actions | `references/monsties.md` | "What type is Zinogre?" "Where do I find Deviljho?" |
 | Tier rankings, best monsties, team composition, regional teams | `references/monsties.md` (tier section) | "Best monsties?" "S tier?" "Best team for Canalta?" |
 | Gene system, bingo, passive skills, builds, affinity effects | `references/genes-and-builds.md` | "Best genes for Nergigante?" "How does bingo work?" |
+| Gene farming — which monstie carries a gene, what zone | `references/gene-sources.md` | "Where do I get Critical Eye?" "Genes in Canalta?" |
 | Combat mechanics, head-to-head, kinship, weapon mechanics | `references/combat-weapons.md` | "How do double attacks work?" "How does spirit gauge work?" |
 | Comparing weapons across types, general weapon recs | `references/weapons-index.md` | "Best fire weapon?" "Weapon comparison" |
 | Specific Great Sword options | `references/weapons-great-sword.md` | "Best great sword?" "GS with dragon element?" |
@@ -110,8 +133,9 @@ Based on the user's question, load the appropriate reference file **before answe
 | Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" |
 | Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" |
 | Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" |
+| Zone-specific progression advice | `zones/{region}.md` | "What should I do in Canalta?" "Best build for Azuria?" |
 
-**Weapon routing heuristic**: If the user names a weapon TYPE, load that type's file. If comparing across types, load `weapons-index.md`. If asking about weapon MECHANICS (charge gauge, spirit gauge, coatings), load `combat-weapons.md`.
+**Weapon routing heuristic**: If the user names a weapon TYPE, load that type's file. If comparing across types, load `weapons-index.md`. If asking about weapon MECHANICS (charge gauge, spirit gauge, coatings), load `combat-weapons.md`. Weapon and armor files now have a **Zone column** — use it to filter recommendations by player progression.
 
 **If the question spans multiple domains**, load the most relevant file first, answer that part, then load additional files as needed.
 

@@ -174,13 +174,19 @@ C1  C2  C3     Diagonal lines: A1-B2-C3, A3-B2-C1
 ---
 
 ## Gene Farming Quick Reference
-| Gene | Found On |
-|---|---|
-| Critical Eye (XL) | Nargacuga, Zinogre, Nergigante lines |
-| Soul Kinship (XL) | High-rank / deviant monsties |
-| Noxious Poison | Rathian, Dreadqueen Rathian |
-| Thunder genes | Astalos, Zinogre, Lagiacrus |
-| Ice genes | Legiana, Barioth, Velkhana |
-| Dragon genes | Deviljho, Magnamalo, Gore Magala, Nergigante |
-| Fire genes | Rathalos, Glavenus, Anjanath, Teostra |
-| Water genes | Mizutsune, Namielle, Royal Ludroth |
+
+| Gene | Found On | Region |
+|---|---|---|
+| Critical Eye | Nargacuga, Zinogre, Silverwind Nargacuga, Dreadking Rathalos | Ca, Ca, Ca, Ca |
+| Soul Kinship (XL) | Deviant monsties (Dreadqueen, Boltreaver, Silverwind, etc.) | varies |
+| Noxious Poison | Dreadqueen Rathian | Az |
+| Bloodblight (XL) | Malzeno | Se |
+| Skill Seal (XL) | Velkhana | PG |
+| Solar Cry | Dreadqueen Rathian, Boltreaver Astalos | Az, Az |
+| Thunder genes | Astalos, Zinogre, Lagiacrus, Thunderlord Zinogre | Az, Ca, Az, Ta |
+| Ice genes | Legiana, Barioth, Velkhana, Aurora Somnacanth | Ca, Se, PG, Ca |
+| Dragon genes | Deviljho, Magnamalo, Gore Magala, Malzeno, Nergigante | Ca, Se, Ca, Se, PG |
+| Fire genes | Rathalos, Glavenus, Anjanath, Teostra, Dreadking Rathalos | Az, Ta, Az, PG, Ca |
+| Water genes | Mizutsune, Namielle, Royal Ludroth | Az, PG, Az |
+
+For the full gene → monstie → region mapping, see `gene-sources.md`.
