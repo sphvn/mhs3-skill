@@ -97,7 +97,7 @@ These are **active combat skills** slotted into weapon deco slots. Each weapon t
 | Perfect Strike | ATK, HVY, CRFT | Precision single-target |
 | Backlash Blitz | CRFT, BRK, FLSH | Counter-style hammer attack |
 | Striking Secret | S, M, L | Special Hammer technique |
-| Hammer Mastery | S, M, L | Passive: chance for +2 extra shells when loading |
+| Hammer Mastery | S, M, L | Passive: reduces Stamina cost when winning Head-to-Head |
 | Soulbreak | S, M, L | Conditional damage boost |
 
 ### Hunting Horn

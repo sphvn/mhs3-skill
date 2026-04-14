@@ -3,6 +3,40 @@
 Armor is equipped by the **Rider** (not monsties). Each set provides Defense, Deco Slots, and Skills.
 Elemental resistances are displayed in-game per set but exact numbers are not available here.
 
+**Upgrade tiers:** T1 uses primary monster materials. T2 adds a secondary monster. T3 adds a tertiary monster + Armor Spheres. Some armor caps at T2.
+
+**Spoiler note:** In-game, material sources show as ??? until discovered. Ask before revealing source monsters.
+
+## Monster → Armor Lookup (non-obvious names only)
+Most armor is named after its source monster. This table covers cases where the name doesn't match:
+
+| Source Monster | Armor Name | Notes |
+|---|---|---|
+| Pink Rathian | Rath Heart Armor | T2: + Ajarakan, T3: + Brachydios |
+| Azure Rathalos | Rath Soul Armor | Requires habitat mutation of Rathalos → Azure Rathalos |
+| Sand Barioth | Barioth U Armor | NOT regular Barioth |
+| Magnamalo | Sinister Armor | T2: + Black Gravios |
+| Arkveld | Arkvulcan Armor | T2: + Invasive materials |
+| Deviljho | Vangis Armor | |
+| Ebony Odogaron | Death Garon Armor | T1-2 also use Stygian Zinogre |
+| Velkhana | Rimeguard Armor | T2: + Deviljho |
+| Malzeno | Malzeno Armor | |
+| Garangolm | Golm Armor | T2: + Blangonga |
+| Seregios | Regios Armor | |
+| Blangonga | Blango Armor | |
+| Paolumu | Lumu Armor | |
+| Yian Kut-Ku | Kut-Ku Armor / Kut-Ku U | U variant: Blue Yian Kut-Ku + Aknosom |
+| Purple Gypceros | Gypceros U Armor | + Khezu |
+| Recipe (chest) | Damascus Armor | Lazlion chest. Uses Crystalline + Brute Tigrex |
+| Recipe (chest) | Artian Armor | Uses Lunagaron + ore materials |
+| Recipe (chest) | Azure Armor | |
+| Recipe (chest) | Edel Armor | |
+| Recipe (chest) | High Metal Armor | |
+| Recipe (special) | Yukumo Armor | Gargwa Feather + Ajarakan + Orangaten + Brute Bone |
+| Bug materials | Aelucanth Armor | Rachnoid Silk, Dragonbug Juice, Hercudrome |
+| Bug materials | Rhopessa Armor | Dragonbug Juice, High-Grade Bug, Hercudrome |
+| Shop / ore | Alloy Armor | Ore/mineral materials |
+
 ## All Armor Sets
 
 Sorted by Defense (highest first), then by element.

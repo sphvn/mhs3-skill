@@ -35,6 +35,30 @@ For a specific weapon type's full catalog, see the per-type file listed below.
 | Gunlance | Lagia Burst | Thunder | GL Mastery (M), Hail Cutter + Burst Fire |
 | Gunlance | Aknosom Gunlance | Fire | GL Mastery (M), Charged Shelling + Hail Cutter |
 
+## Monster → Weapon Lookup (non-obvious names only)
+
+**Spoiler note:** In-game, material sources show as ??? until discovered. Ask before revealing source monsters. T1/T2/T3 may require different monsters.
+
+| Source Monster | Weapon Name | Type |
+|---|---|---|
+| Zinogre | Usurper's Boltslicer (LS), Usurper's Thunder (Hammer) | Slash, Blunt |
+| Deviljho | Reaver "Cruelty" (LS), Devil's Due (Hammer), Berserker Sword (GS) | All |
+| Seregios | Cheda Blade (GS), Khanga Edge (LS), Wind Thief Scimitar (LS) | Slash |
+| Magnamalo | Sinister Blade (GS), Sinister Long Sword, Sinister Hammer | All |
+| Arkveld | Veldian series (all 6 types: Gladius, Ensis, Malleus, Sibilus, Arcum, Hasta) | All |
+| Ibushi + Narwa | Azure Elder series (all 6 types) | All |
+| Malzeno | Duke's Sinclair (LS), Duke Smiter (Hammer), Duke's Grail (HH) | Multiple |
+| Namielle | Hydra Tornaria (LS), Hydros Horn (HH) | Slash, Blunt |
+| Goss Harag | Gossblade (GS), Yeti Hammer (Hammer) | Slash, Blunt |
+| Lunagaron | Sword/Hammer of the Winter Moon | Slash, Blunt |
+| Espinas | Rosenbrett (GS), Rosenhammer (Hammer) | Slash, Blunt |
+| Glavenus | Scorching Blazer (GS), Scorching Isshata (Hammer) | Slash, Blunt |
+| Yian Garuga | Sentoryu Raven (GS), Daito Crow (LS) | Slash |
+| Recipe (chest) | Epitaph Blade (GS), Cat's Soul (GS), Frozen Speartuna (GS), Wailing Ghost (LS) | Varies |
+| Brachydios | Dios Katana (LS), Dios Tailhammer (Hammer) | Slash, Blunt |
+| Garangolm | Golm Blade (GS), Golm Gavel (Hammer) | Slash, Blunt |
+| Rey Dau | Rey Tonitrus (LS), Rey Perun (HH) | Slash, Blunt |
+
 ## Key Columns in Per-Type Files
 
 - **Name**: Weapon name

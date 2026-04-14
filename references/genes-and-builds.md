@@ -47,6 +47,13 @@ C1  C2  C3     Diagonal lines: A1-B2-C3, A3-B2-C1
 ```
 **8 possible Bingo lines total** (3 horizontal + 3 vertical + 2 diagonal).
 
+**Counting bingos — check ALL 8 lines for BOTH dimensions:**
+1. For each of the 8 lines, check: do all 3 genes share the same **Type**? → Type Bingo
+2. For each of the 8 lines, check: do all 3 genes share the same **Element**? → Element Bingo
+3. A single line CAN score both a Type Bingo AND an Element Bingo simultaneously
+4. Rainbow Gene counts as ANY type and ANY element for matching
+5. Count Type bingos and Element bingos separately — both contribute to total
+
 **Bingo bonuses:**
 - Type Bingo (3 Power in a row): +5% damage for that attack type
 - Element Bingo (3 Fire in a row): elemental damage bonus

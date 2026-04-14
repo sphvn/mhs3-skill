@@ -57,6 +57,10 @@ Found in the Skills page of a monstie's profile. Two independent tendencies:
 
 ## Step 3: Ecosystem Rank & Excursions
 
+### Two Separate Systems (same camp menu)
+- **Habitat Restoration**: Release monsties permanently → raises zone Ecosystem Rank (B→A→S), unlocks mutations, enables dual-element eggs. See `spawn-conditions.md` for full mutation list, zone elements, and rank mechanics.
+- **Excursions**: Send monstie temporarily (costs Training Talisman from Melynx Emporium) → grants individual stat bonuses and Environment Skills.
+
 ### Stat Increases via Excursions
 Send a monstie to a specific ecosystem. At 3★ rank, they gain **2 stat increase slots** with these options:
 | Bonus | Value |
@@ -180,8 +184,28 @@ Example: Ebony Odogaron going dual element lowers its resistance to Fire, Water,
 - Bishaten's Kinship Attack (Fruit Barrage) inflicts multiple statuses → gear toward status build
 
 ### Support / "Child Labor" Palamute
-- Species: Palamute (3-bingo bonus = +3 Stamina Recovery)
-- Strategy: Spam Nourishing Pinecones + White Shadow
-- Passives: Stamina Surge (XL), Stamina Boost (XL)
-- Excursion bonus: Stamina Recovery +5
-- Tendency: Cautious (more stamina control for you)
+
+**Species:** Canyne (Palamute) — Speed / Non-Elem / Rank 5 / Fanged Beast / Canalta (Blessing Hill)
+**Obtained:** Chapter 13 ("Ward") — defeat Invasive Arzuros at Blessing Hill, collect egg from Endangered Den.
+
+**Stats:** Very high Speed (9 trend), solid Defense, mediocre Attack (5) and Crit (1). NOT a damage dealer — pure support.
+**Riding actions:** Jump, Wall Climb, Roar, Melee Attack, **Ground Dive** (unique — access underground passages). Also has Wall Climb, making it the best exploration monstie.
+**Kinship Attack:** Rising Axel — Non-Elem single-target damage.
+
+**Unique genes (Canyne-exclusive):**
+- **Art of Raw Power**: Non-Elem Attack Up buff to self (20 stamina)
+- **Art of Friendship** (Lv30): Grants Regenerate to ALL allies (20 stamina) — key support skill
+- **Art of Striking**: Non-Elem damage, increases on repeated use
+
+**Core build strategy:** Cycle between healing allies, recovering stamina, and dodging damage.
+- **Nourishing Pinecones** (from Blood Orange Bishaten, Tarkuan): 0 stamina cost, recovers own stamina
+- **White Shadow** (from Silverwind Nargacuga, habitat mutation): 80 stamina, 2-turn full evasion
+- **Art of Friendship**: Party Regenerate
+- Passives: Stamina Surge (XL) +6 recovery/turn, Stamina Boost (XL) +20 starting stamina
+- Excursion bonus: Stamina Recovery +5 (Canalta)
+- 3-bingo bonus: +3 Stamina Recovery
+- **Tendency: Cautious** (more stamina control for ordered skills)
+
+**Total stamina engine:** Base recovery + Stamina Surge XL (+6) + bingo bonus (+3) + excursion (+5) = massive per-turn recovery. Nourishing Pinecones costs 0 and recovers more on top.
+
+**vs other Speed/Non-Elem options:** Canyne doesn't compete on damage. Nargacuga/Odogaron/Seregios are better DPS. Canyne is the only dedicated support monstie in Speed/Non-Elem, with unmatched stamina cycling and party sustain via Art of Friendship.

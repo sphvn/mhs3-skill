@@ -28,14 +28,17 @@ Key: Az=Azuria, Ca=Canalta, Ta=Tarkuan, Se=Serathis, PG=Post-game
 
 | Gene | Tier | Type | Elem | Carried By | Region |
 |---|---|---|---|---|---|
-| Health Boost | S | Speed | Non-Elem | Nearly all Rank 5+ monsties | varies |
-| Health Boost | M | Speed | Non-Elem | Ruiner Nergigante | PG |
-| Self-Heal | M | Speed | Non-Elem | Nergigante | PG |
-| Self-Heal | XL | Speed | Non-Elem | Malzeno (via Life Drain synergy) | Se |
+| Health Boost | S | Power | Non-Elem | Arzuros, Pukei-Pukei, Bishaten, Great Izuchi, Canyne, Nargacuga, Seregios, Tigrex, Odogaron, Diablos + many more | Az, Az, Az, Az, Ca, Ca, Ta, Ta, Ta, Ta |
+| Health Boost | M | Power | Non-Elem | Ruiner Nergigante | PG |
+| Self-Heal | varies | Speed | Fire | Rathalos, Yian Garuga, Espinas, Glavenus, Rakna-Kadaki, Blood Orange Bishaten, Gravios | Az, Ca, Ta, Ta, Se, Ta, Ta |
+| Self-Heal | XL | Speed | Fire | Malzeno (via Life Drain synergy) | Se |
+| Stamina Surge | L | Speed | Thunder | Zinogre, Thunderlord Zinogre, Rey Dau | Ca, Ta, Ta |
+| Stamina Boost | S-M | Power | Water | Found on armor: Tetranadon, Odogaron, Rakna sets. Gene carriers: use in-game Gene Search (L3/V) | Az, Ca, Se |
 | Tenacity | M | Power | Non-Elem | Nergigante | PG |
 | Evasion | S | Speed | Non-Elem | Velkhana, Malzeno, Rajang, Rathian | PG, Se, Se, Az |
 | Evasion | M | Speed | Non-Elem | Nargacuga, Silverwind Nargacuga | Ca, Ca |
 | All-E Def Boost | M | Tech | Non-Elem | Nergigante, Velkhana | PG, PG |
+| Divine Blessing | varies | Non-Elem | — | Barroth, Tigrex, Brute Tigrex, Diablos, Black Diablos, Odogaron, Magnamalo, Brachydios | Ta, Ta, Ta, Ta, Ta, Ta, Se, Se |
 | Divine Blessing | XL | Non-Elem | — | Legiana, Kirin | Ca, PG |
 | Panacea | XL | Dragon | Power | Velkhana | PG |
 | Crit-Heal | XL | Dragon | — | Malzeno, Ruiner Nergigante | Se, PG |

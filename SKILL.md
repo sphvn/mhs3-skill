@@ -106,7 +106,8 @@ The stat panel shows: HP, Attack, Crit Rate, Wyvernfell, Speed, Defense, Stamina
 3. If the best answer requires future-zone data, say: "There's a better option available later. Want me to share it?"
 4. Gene farming: offer best CURRENT-zone source first, then mention "better versions exist later" without naming the monster
 5. Post-game/Elder Dragon content is ALWAYS gated unless user has post-game context
-6. **Opt-out**: If user says "I don't care about spoilers" or similar, disable spoiler gates for the conversation
+6. **Gear material sources**: In-game, crafting materials show as **???** until the player discovers them. When a user asks "what materials do I need for X armor/weapon?", **ask if they want spoilers** before revealing the source monster. The lookup tables in `armor.md` and `weapons-index.md` are for internal resolution (e.g., "Pink Rathian armor" → Rath Heart Armor) — use them freely for identification, but gate the material source reveal.
+7. **Opt-out**: If user says "I don't care about spoilers" or similar, disable spoiler gates for the conversation
 
 **Zone-aware recommendations**: When the user asks "what should I build?" or "best X for my zone?", filter weapons (Zone column), armor (Zone column), and gene sources by their current zone or earlier.
 
@@ -133,9 +134,10 @@ Based on the user's question, load the appropriate reference file **before answe
 | Egg identification, patterns, den types, potency | `references/eggs.md` | "What pattern is an Elder Dragon egg?" |
 | Advanced building: tendencies, dual element, ecosystem rank | `references/building-guide.md` | "How do tendencies work?" |
 | Battle allies / partner characters | `references/battle-allies.md` | "Who should I bring?" "Best partner?" |
+| Spawn conditions, day/night, habitat restoration, mutations, zone elements | `references/spawn-conditions.md` | "Is Astalos day or night?" "How do mutations work?" "Zone elements?" |
 | Zone-specific progression advice | `zones/{region}.md` | "What should I do in Canalta?" "Best build for Azuria?" |
 
-**Weapon routing heuristic**: If the user names a weapon TYPE, load that type's file. If comparing across types, load `weapons-index.md`. If asking about weapon MECHANICS (charge gauge, spirit gauge, coatings), load `combat-weapons.md`. Weapon and armor files now have a **Zone column** — use it to filter recommendations by player progression.
+**Weapon routing heuristic**: If the user names a weapon TYPE, load that type's file. If comparing across types or looking up a weapon by monster name, load `weapons-index.md`. If asking about weapon MECHANICS (charge gauge, spirit gauge, coatings, Wyvernfell, status effects), load `combat-weapons.md`. If asking about crafting materials or "what monster makes X", check `armor.md` or `weapons-index.md` lookup tables (and apply spoiler gate). Weapon and armor files have a **Zone column** — use it to filter recommendations by player progression.
 
 **If the question spans multiple domains**, load the most relevant file first, answer that part, then load additional files as needed.
 

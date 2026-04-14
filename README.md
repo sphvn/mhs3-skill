@@ -18,15 +18,16 @@ mhs3/
 │   ├── genes-and-builds.md           (~2K tokens — gene system, affinity effects, bingo, passives, builds)
 │   ├── gene-sources.md               (~1.5K tokens — gene → monstie → region mapping, zone farming guide)
 │   ├── building-guide.md             (~1.8K tokens — tendencies, dual element, ecosystem rank, archetypes)
-│   ├── combat-weapons.md             (~1K tokens — PST triangle, H2H, weapon mechanics, field tips)
-│   ├── weapons-index.md              (~600 tokens — cross-type overview + standout picks)
+│   ├── combat-weapons.md             (~3.5K tokens — PST triangle, H2H, Wyvernfell/Wyvernsoul, weapon mechanics, status effects, field tips)
+│   ├── spawn-conditions.md           (~2K tokens — day/night spawns, habitat restoration, mutations, zone elements, dual-element farming)
+│   ├── weapons-index.md              (~1K tokens — cross-type overview + standout picks + monster→weapon lookup)
 │   ├── weapons-great-sword.md        (~500 tokens — 29 Great Swords + Zone column)
 │   ├── weapons-long-sword.md         (~500 tokens — 29 Long Swords / Katanas + Zone column)
 │   ├── weapons-hammer.md             (~600 tokens — 37 Hammers + Zone column)
 │   ├── weapons-hunting-horn.md       (~500 tokens — 29 Hunting Horns + Zone column)
 │   ├── weapons-bow.md                (~400 tokens — 19 Bows + Zone column)
 │   ├── weapons-gunlance.md           (~400 tokens — 17 Gunlances + Zone column)
-│   ├── armor.md                      (~1.5K tokens — ~85 armor sets sorted by defense + Zone column)
+│   ├── armor.md                      (~2K tokens — ~85 armor sets sorted by defense + Zone column + monster→armor lookup)
 │   ├── skills-and-decorations.md     (~800 tokens — skill system overview + decoration mechanics)
 │   ├── eggs.md                       (~1.2K tokens — patterns, potency, locations, SR tickets, farming)
 │   └── battle-allies.md              (~750 tokens — 6 partners, tier rankings, scenario picks)
@@ -39,10 +40,10 @@ mhs3/
 └── README.md
 ```
 
-**Typical query**: ~2–3K tokens (SKILL.md + 1 reference file)
+**Typical query**: ~2–4K tokens (SKILL.md + 1 reference file)
 **Zone advisory**: ~2.3K tokens (SKILL.md + zone file)
-**Full build planning**: ~5.5K tokens (SKILL.md + zone + genes + gene-sources)
-**Full load**: ~18K tokens (all files)
+**Full build planning**: ~6K tokens (SKILL.md + zone + genes + gene-sources)
+**Full load**: ~22K tokens (all files)
 
 Weapon catalog is split by type — asking about Long Swords loads only the 29 katanas (~500 tokens), not all 160+ weapons. All weapon and armor files now include a **Zone column** (Shop/Az/Ca/Ta/Se/PG) for progression-aware filtering.
 
@@ -53,9 +54,12 @@ Weapon catalog is split by type — asking about Long Swords loads only the 29 k
 - **Affinity Effects** — all 16 skill modifier suffixes (STR, ATK, SKL, CRFT, etc.)
 - **Passive skills** — full table with actual stat values from in-game testing
 - **Tier list** — S through D rankings with search flag for post-launch updates
-- **Combat** — PST triangle, Head-to-Head, Double Attacks, Kinship, Wyvernsoul
-- **Weapon catalog** — 160+ weapons split by type (GS, LS, Hammer, HH, Bow, GL) with elements, deco slots, skills
-- **Armor catalog** — ~85 armor sets with defense, deco slots, skills, sorted by defense + top picks by role
+- **Combat** — PST triangle, Head-to-Head, Double Attacks, Kinship, Wyvernsoul/Wyvernfell mechanics, Synchro Rush
+- **Weapon mechanics** — per-type detailed mechanics (Bow coatings, HH melodies, GS/LS gauges, Hammer stun, GL shells)
+- **Status effects** — all ailments with mechanics, durations, cures, Inflict Rate Up interaction
+- **Weapon catalog** — 160+ weapons split by type (GS, LS, Hammer, HH, Bow, GL) with elements, deco slots, skills, monster→weapon lookup
+- **Armor catalog** — ~85 armor sets with defense, deco slots, skills, sorted by defense + top picks by role + monster→armor lookup
+- **Spawn conditions** — day/night spawns, invasive monsters, habitat restoration, mutations, zone elements
 - **Skills & decorations** — weapon vs armor deco distinction, weapon deco catalog by type, armor deco passives, acquisition methods
 - **Eggs** — patterns by genus, potency levels, locations by region, SR Expedition Tickets
 - **Battle allies** — all 6 partners with weapons, elements, monsties, per-scenario recommendations
