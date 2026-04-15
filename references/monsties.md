@@ -37,7 +37,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 |---|---|---|---|---|
 | Mizutsune | Water | T | 5 | Az |
 | Soulseer Mizutsune | Water | T | 7 | Ca |
-| Lagiacrus | Thunder | T | 5 | Az |
+| Lagiacrus | Thunder | P | 5 | Az |
 | Ivory Lagiacrus | Thunder | T | 6 | Az |
 | Royal Ludroth | Water | T | 3 | Az |
 | Aurora Somnacanth | Ice | T | 5 | Ca |
@@ -46,9 +46,9 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
 | Deviljho | Dragon | P | 6 | Ca |
-| Glavenus | Fire | P | 5 | Ta |
-| Hellblade Glavenus | Fire | P | 7 | Ta |
-| Brachydios | Fire | T | 5 | Ta |
+| Glavenus | Fire | S | 5 | Ta |
+| Hellblade Glavenus | Fire | S | 7 | Ta |
+| Brachydios | Non-Elem | P | 5 | Ta |
 | Barroth | Water | P | 3 | Az |
 | Anjanath | Fire | P | 4 | Az |
 | Radobaan | Non-Elem | P | 4 | Ca |
@@ -57,7 +57,7 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 ### Fanged Wyverns (7)
 | Name | Element | Type | Rank | Region |
 |---|---|---|---|---|
-| Zinogre | Thunder | P | 5 | Ca |
+| Zinogre | Thunder | S | 5 | Ca |
 | Stygian Zinogre | Dragon | P | 6 | Ta |
 | Thunderlord Zinogre | Thunder | P | 7 | Ta |
 | Tobi-Kadachi | Thunder | S | 3 | Az |
@@ -156,27 +156,47 @@ Key: P=Power, S=Speed, T=Technical | Ranks 1–7 | Regions: Az=Azuria, Ca=Canalt
 
 ---
 
-## Tier List (Launch Window — March 2026)
+## Tier List (Game8, updated April 7, 2026)
 
-⚠️ **SEARCH FLAG**: This tier list reflects launch-window data. If the user asks about
-current meta, search mhstories3.wiki/monsties/tier-list and game8.co for updates.
+⚠️ **SEARCH FLAG**: If the user asks about current meta shifts, search game8.co/games/Monster-Hunter-Stories-3/archives/586383 for the latest version.
 
-### S Tier (Best in game)
-| Monstie | Why |
-|---|---|
-| Dreadqueen Rathian | Highest HP in game, AoE poison+burn, Speed/Fire, devastating in long fights and PvP |
-| Boltreaver Astalos | Burst damage king, Technical/Thunder crit feedback loop, multiplicative bingo stacking |
-| Ruiner Nergigante | Self-healing + raw Power/Dragon, crit-kinship engine, top PvE endgame pick |
-| Velkhana | Skill Seal ability (locks opponent skills), Technical/Ice, PvP menace |
+### SS Tier (Best in game)
+| Monstie | Type/Elem | Why |
+|---|---|---|
+| Espinas | P/Fire | Best status monstie — Venom Flame inflicts Paralysis + Noxious Poison. High HP/ATK, low stamina costs, resistant to common elements |
+| Namielle | T/Water | Earliest Elder Dragon (Azuria). Storm Veil grants 4 buffs (Water ATK Up, Thunder ATK Up, Wyvernfell Up, Def Up) |
+| Malzeno | S/Dragon | Self-sustaining (Night Parasites heals on damage). Nightmare Cradle = AoE Dragon + Attack Down. Strong vs final boss |
+| Velkhana | T/Ice | High ice damage relative to stamina cost. Icicle skills apply Def Down + Accuracy Down. Elder Dragon |
+| Deviljho | P/Dragon | Massive Wyvernsoul damage via Dragonblast. High HP/ATK/DEF for trading blows. Dragon Eater sustain |
+| Boltreaver Astalos | T/Thunder | Crit-focused DPS. Paralysis + Blue Plasma + Solar Cry. High starting stamina/ATK/crit |
+| Brute Tigrex | P/Non-Elem | Upgrade to Purple Gypceros for Stun — Reverberating Roar = AoE Stun. Balanced stats |
+| Magnamalo | S/Non-Elem | Best Blastblight user — Hellfire Retribution detonates early for burst. Balanced stats, fits any team |
+| Dreadqueen Rathian | S/Fire | AoE Severe Poison + Burn. High starting stamina/HP/ATK. Easy to obtain. Dragon resistant |
+| Ruiner Nergigante | P/Dragon | Self-healing + raw Power/Dragon, crit-kinship engine. (Not ranked by Game8 but top PvE endgame pick) |
 
-### A Tier (Excellent)
-Purple Gypceros (crowd control, multi-status), Rajang (raw Thunder/Power), Zinogre (charged state powerhouse), Silverwind Nargacuga (evasion/Speed), Deviljho (early powerhouse that scales), Malzeno (Technical/Dragon versatility)
+### S Tier (Excellent)
+| Monstie | Type/Elem | Why |
+|---|---|---|
+| Dreadking Rathalos | P/Fire | Highest attack stats, held back by Dragon weakness |
+| Arkveld | —/Dragon | High dragon damage, self-ATK buff, inflicts Wyvernsoul Def Down |
+| Brachydios | P/Non-Elem | Balanced offense/defense, Blastblight access |
+| Green Nargacuga | S/Non-Elem | Defensive Nargacuga variant with AoE Stun |
+| Lunagaron | S/Ice | Best ice monstie — Crescent Strike + self Ice ATK buff |
+| Purple Gypceros | P/Non-Elem | Earliest Stun access, consistent Poison. Stats fall off late |
+| Silverwind Nargacuga | S/Non-Elem | Highest speed, 20% base crit, White Shadow 2-turn dodge |
+| Thunderlord Zinogre | P/Thunder | Highest Thunder damage via Thundercall + Thunder ATK buff |
+| Ivory Lagiacrus | S/Thunder | Most balanced stats, AoE Thunder + Paralysis, Royal Decree ATK debuff |
+| Red Khezu | T/Thunder | Best setup monster with Thunder Trap, AoE Paralysis |
+| Bloodbath Diablos | S/Non-Elem | Extreme offense, Non-Elem AoE. Abysmal survivability (recoil damage) |
+
+### A Tier (Strong)
+Stygian Zinogre (T/Dragon), Deadeye Yian Garuga (S/Fire), Aurora Somnacanth (T/Ice), Azure Rathalos (P/Fire), Hellblade Glavenus (S/Fire), Grimclaw Tigrex (P/Non-Elem), Lagiacrus (P/Thunder), Soulseer Mizutsune (S/Water), Astalos (T/Thunder), Ajarakan (T/Fire), Diablos (P/Non-Elem), Black Diablos (P/Non-Elem), Nargacuga (S/Non-Elem), Barioth (T/Ice), Rajang (P/Thunder)
 
 ### B Tier (Solid)
-Rathalos, Mizutsune, Magnamalo, Lagiacrus, Tigrex, Grimclaw Tigrex
+Canyne (S/Non-Elem), Zinogre (S/Thunder), Glavenus (S/Fire), Legiana (S/Ice), Tigrex (S/Non-Elem), Sand Barioth (T/Non-Elem), Mizutsune (T/Water), Pink Rathian (S/Fire), Seregios (T/Non-Elem), Almudron (P/Water), Ratha (P/Fire), Bishaten (T/Non-Elem), Tobi-Kadachi (S/Thunder)
 
-### C Tier (Situational)
-Nargacuga, Glavenus, Brachydios, Diablos, Gammoth, Gore Magala
+### C Tier (Early/Niche)
+Rathalos (P/Fire), Gammoth, Gore Magala, Odogaron, Barroth, Royal Ludroth
 
 ### D Tier (Replace quickly)
 Velocidrome, Yian Kut-Ku, Arzuros, Aptonoth
@@ -203,13 +223,13 @@ Velocidrome, Yian Kut-Ku, Arzuros, Aptonoth
 ### Top Picks by Role
 | Role | Best Monsties | Why |
 |---|---|---|
-| **DPS** | Boltreaver Astalos, Ruiner Nergigante, Rajang | Burst damage, crit scaling, raw power |
-| **Wyvernsoul Topple** | Chatacabra (61 WF), Paolumu (60 WF), Yian Garuga (59 WF) | Highest Wyvernfell stats for fast gauge depletion |
-| **Tank / Sustain** | Dreadqueen Rathian, Gammoth, Gravios | Highest HP, self-heal, status resistance |
-| **Status Control** | Purple Gypceros, Dreadqueen Rathian, Bishaten | Multi-status infliction, Inflict Rate Up synergy |
-| **Support** | Canyne (Palamute) | Party Regenerate, stamina cycling, only dedicated support |
-| **Crit-Kinship** | Ruiner Nergigante, Zinogre, Magnamalo | Crit → Kinship → Kinship Skills → repeat |
-| **PvP** | Velkhana, Dreadqueen Rathian, Silverwind Nargacuga | Skill Seal, status pressure, evasion |
+| **DPS** | Boltreaver Astalos, Magnamalo, Ruiner Nergigante, Dreadking Rathalos | Burst damage, crit scaling, Blastblight detonation |
+| **Wyvernsoul Topple** | Deviljho (Dragonblast), Chatacabra (61 WF), Paolumu (60 WF) | Highest Wyvernfell / fastest gauge depletion |
+| **Status Control** | Espinas (Paralysis + Noxious Poison), Brute Tigrex (AoE Stun), Dreadqueen Rathian (Severe Poison + Burn) | Best status inflictors in game |
+| **Tank / Sustain** | Malzeno (self-heal), Dreadqueen Rathian, Namielle (4-buff Storm Veil) | Self-sustain + high HP |
+| **Support** | Canyne (Palamute), Namielle | Party Regenerate / party buffs |
+| **Crit-Kinship** | Ruiner Nergigante, Boltreaver Astalos, Magnamalo | Crit → Kinship → Kinship Skills → repeat |
+| **PvP** | Velkhana (Skill Seal), Espinas (double status), Silverwind Nargacuga (evasion) | Lockdown + status pressure |
 
 ### Recommended Team Compositions
 - **Balanced PvE**: Dreadqueen Rathian (S/Fire) + Boltreaver Astalos (T/Thunder) + Ruiner Nergigante (P/Dragon)
