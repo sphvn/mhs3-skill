@@ -105,7 +105,7 @@ When a monstie reaches S rank in an environment:
 If your monstie is S-ranked in an area, it gains **that area's element** as a second element. This changes its appearance and alters combat properties.
 
 ### Elemental Damage Penalty
-- Using a move of an element your monstie **doesn't have** → **60% damage reduction**
+- Using a move of an element your monstie **doesn't have** → **10% damage reduction** (source: Les Carnets updated guide)
 - Gaining the corresponding element via dual element **negates this penalty entirely**
 - A Fire-element Ebony Odogaron deals the same Fire damage as a native Fire monstie (e.g., Dreadking Rathalos) with equivalent Attack stat
 

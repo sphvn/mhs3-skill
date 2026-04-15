@@ -119,18 +119,18 @@ Learn per-monster patterns. After a few encounters, you'll recognize tells for u
 | Status | Effect | Resolution / Cure |
 |---|---|---|
 | Poison / Noxious / Severe | DoT per turn (% of target's max HP — stronger tiers = more damage) | ~3 turns. Antidote (single) / Antidote Powder (AoE + Negate) |
-| Burn | DoT per turn (Fire-based) | Burn Ointment (single) / Burnheal Powder (AoE + Negate) |
+| Burn | DoT per turn + **+20% damage taken (additive)** | Burn Ointment (single) / Burnheal Powder (AoE + Negate) |
 | Paralysis | Each turn: **chance** to skip action (probability roll, not guaranteed) | Multi-turn. Paracare (single) / Paraheal Powder (AoE + Negate) |
-| Sleep | Cannot act until **hit by damage** (wake-up hit). Free turn to heal/buff | Until damaged (or ~3 turns if undisturbed). Energy Drink / Awakening Powder |
+| Sleep | Cannot act until hit. Wake-up hit is **guaranteed critical (1.5x)**. Free turn to heal/buff | Until damaged (or ~3 turns if undisturbed). Energy Drink / Awakening Powder |
 | Blastblight | Delayed explosion — detonates after ~3-5 turns. Can be detonated early (Magma Counter, Hellfire Retribution) | Soap Scud (single) / Cleansing Powder (AoE) |
-| Bleeding | Incoming damage **amplified** while bleeding (damage-taken multiplier, not DoT) | Sushifish (single, also gives regen) |
+| Bleeding | **Doubles damage of next hit taken** (multiplicative, not DoT) | Sushifish (single, also gives regen) |
 | Darkness (Flash) | Reduces accuracy — attacks have higher miss chance | Intuitizer (single) / Darkheal Powder (AoE) |
 | Stun | Skips one turn entirely (guaranteed, unlike Paralysis) | Short duration. Caused by Hammer skills, Sonic Bomb, traps |
 | Skill Seal | Cannot use ANY skills — only basic P/S/T attacks available | Multi-turn. Zest Pill (single). Velkhana signature ailment |
 
 **Nulberry Elixir** = universal single-target cure for any status.
 
-**Inflict Rate Up** (passive gene, S/M/L/XL tiers): Increases chance to apply ANY status ailment. Stacks with status-specific skills like Debilitating Lilt. **Salt in Wound**: +10% damage vs status-afflicted targets.
+**Inflict Rate Up** (passive gene, S/M/L/XL tiers): Increases chance to apply ANY status ailment. Stacks with status-specific skills like Debilitating Lilt. **Salt in Wound** (XL): +20% damage vs status-afflicted targets.
 
 **Note:** "Exhaust" is NOT a status ailment in MHS3 — Bow's Exhaust Coating deals Wyvernfell (gauge) damage, not a status effect.
 

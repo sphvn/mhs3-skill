@@ -85,6 +85,22 @@ C1  C2  C3     Diagonal lines: A1-B2-C3, A3-B2-C1
 - Fill remaining slots with passives for sustained power
 - Consider monstie's Stamina Tendency when choosing skill costs (see building-guide.md)
 
+## Buff Stacking Rules (source: Les Carnets)
+- Same buff at **equal or higher tier** → **renews duration** (does not stack)
+- Same buff at **lower tier** → **ignored** entirely (higher tier persists)
+- **Different buff types** combine **additively** (e.g., Attack Up + Element Atk Boost)
+- **Exception**: Element Atk Boost (XL) is **multiplicative** with other damage buffs
+- Some skills explicitly stack (e.g., Egg Skill Fireform: Attack Up S→M→L progressively)
+
+### Active Buff Tiers (from Les Carnets)
+| Buff | S | M | L | Notes |
+|---|---|---|---|---|
+| Power Charge | +66% damage | +95% | +145% | Egg Skill Adamant Rage = 245% |
+| Attack Up | +10% | +20% | +30% | |
+| Element Attack Up | +10% | +20% | +30% | |
+| Critical Up | ~+5% crit | ~+10% | ~+15% | |
+| Bloodrite | +30% damage, 30% lifesteal, -20% HP/turn | — | — | 5 turns, 20 stamina |
+
 ---
 
 ## Noteworthy Passive Skills (with actual values)
@@ -93,10 +109,10 @@ C1  C2  C3     Diagonal lines: A1-B2-C3, A3-B2-C1
 | Skill | Element | Type | Effect |
 |---|---|---|---|
 | [Element] Atk Boost (XL) | varies | Power | +20% damage for that element's attacks |
-| Dancer (XL) | Water | Speed | +100 Attack and +100 Defense at full HP |
-| All-Out (XL) | Dragon | Power | Active skill damage +40%, stamina cost +20% |
+| Dancer (XL) | Water | Speed | +20% damage dealt and -20% damage taken at full HP |
+| All-Out (XL) | Dragon | Power | Active skill damage +30%, stamina cost +20% |
 | Critical (XL) | Dragon | Speed | Crit Rate +15% |
-| Salt in the Wound (XL) | Non-Elem | Power | +10% damage vs status-afflicted targets |
+| Salt in the Wound (XL) | Non-Elem | Power | +20% damage vs status-afflicted targets |
 
 ### Stamina
 | Skill | Element | Type | Effect |
