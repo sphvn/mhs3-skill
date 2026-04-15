@@ -177,6 +177,15 @@ Example: Ebony Odogaron going dual element lowers its resistance to Fire, Water,
 - Passives: Critical (XL), Soul Kinship (XL), Critical Kinship (XL)
 - Loop: crits fill Kinship → Kinship Skills → repeat
 
+### Wyvernsoul Topple (maximize gauge depletion → Topple → Synchro Rush loop)
+- Species: Chatacabra (61 WF), Paolumu (60 WF, 120 WF Kinship AoE), Yian Garuga (59 WF, 10% base crit)
+- Passives: Dragon Buster (+25 Wyvernfell), Critical (XL) (+15% crit = 1.5x WF damage), All-Out (XL)
+- Key moves: Pickaxe Beak (40 WF, 15 stamina, stacks Wyvernsoul Def Down), Dracophage Shot (Wyvernsoul Def Down)
+- Weapons: Yeti Hammer (HVY Perfect Strike), Spongia Bow (highest WF + Exhaust Coating), Veldian Sibilus HH (party Wyvernfell Up)
+- Armor: Goss Harag (Dragon Buster L), Diablos Nero (Dragon Buster M + Slugger)
+- Loop: Stack Wyvernsoul Def Down → deplete gauge → Topple → Synchro Rush (fills Kinship) → mount → repeat
+- See `combat-weapons.md` for full Wyvernfell formula and buff/debuff sources
+
 ### Status Disruptor
 - Species: Purple Gypceros, Dreadqueen Rathian, Bishaten
 - Passives: Inflict Rate Up (XL), Salt in the Wound (XL)

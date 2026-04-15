@@ -200,6 +200,17 @@ Velocidrome, Yian Kut-Ku, Arzuros, Aptonoth
 | Kirin | Thunder evasion — fast, hard to hit, Speed/Thunder specialist |
 | Yama Tsukami | Environmental control — unique battlefield manipulation |
 
+### Top Picks by Role
+| Role | Best Monsties | Why |
+|---|---|---|
+| **DPS** | Boltreaver Astalos, Ruiner Nergigante, Rajang | Burst damage, crit scaling, raw power |
+| **Wyvernsoul Topple** | Chatacabra (61 WF), Paolumu (60 WF), Yian Garuga (59 WF) | Highest Wyvernfell stats for fast gauge depletion |
+| **Tank / Sustain** | Dreadqueen Rathian, Gammoth, Gravios | Highest HP, self-heal, status resistance |
+| **Status Control** | Purple Gypceros, Dreadqueen Rathian, Bishaten | Multi-status infliction, Inflict Rate Up synergy |
+| **Support** | Canyne (Palamute) | Party Regenerate, stamina cycling, only dedicated support |
+| **Crit-Kinship** | Ruiner Nergigante, Zinogre, Magnamalo | Crit → Kinship → Kinship Skills → repeat |
+| **PvP** | Velkhana, Dreadqueen Rathian, Silverwind Nargacuga | Skill Seal, status pressure, evasion |
+
 ### Recommended Team Compositions
 - **Balanced PvE**: Dreadqueen Rathian (S/Fire) + Boltreaver Astalos (T/Thunder) + Ruiner Nergigante (P/Dragon)
 - **Elemental coverage**: Add Velkhana (Ice) or Namielle (Water) to the above

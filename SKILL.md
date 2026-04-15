@@ -174,6 +174,23 @@ Based on the user's question, load the appropriate reference file **before answe
 
 **If the question spans multiple domains**, load the most relevant file first, answer that part, then load additional files as needed.
 
+## BUILD PLANNER (cross-file routing)
+
+When a user asks "what's the best build for X?" or "how do I maximize DPS/sustain/topple?", pull recommendations from multiple files by role:
+
+| Role | Monstie (monsties.md) | Weapon (weapons-index.md) | Armor (armor.md) | Genes (building-guide.md) |
+|---|---|---|---|---|
+| **DPS** | S-tier: Boltreaver Astalos, Ruiner Nergigante, Malzeno | Epitaph Blade (GS), Reaver "Cruelty" (LS), Diablos Hammer | Rath Soul (Crit XL, Crit Kinship L, All-Out L) | Glass Cannon archetype |
+| **Wyvernsoul Topple** | Chatacabra (61 WF), Paolumu (60 WF), Yian Garuga (59 WF) | Yeti Hammer, Spongia Bow, Veldian Sibilus (HH) | Goss Harag (Dragon Buster L), Diablos Nero | Wyvernsoul Topple archetype |
+| **Tank / Sustain** | Dreadqueen Rathian, Gammoth, Gravios | Lagia Burst (GL), Aknosom GL | Rimeguard (Kinship Skill+ XL, Divine Blessing L), Malzeno (Self-Heal XL) | Tank/Sustain archetype |
+| **Status Control** | Purple Gypceros, Dreadqueen Rathian, Bishaten | Veldian Arcum (Bow), Iceflinger (Bow) | Espinas (Inflict Rate Up L, Salt in Wound M) | Status Disruptor archetype |
+| **Support** | Canyne (Palamute) | Hydros Horn (HH), Duke's Grail (HH) | Aelucanth (Synchronize XL, Stamina Surge L) | Support Palamute archetype |
+| **Crit-Kinship** | Ruiner Nergigante, Zinogre, Magnamalo | Any high-skill-count weapon | Rath Soul, Zinogre U (Dragon Atk Boost XL) | Crit-Kinship Engine archetype |
+
+**Zone-aware**: Filter all recommendations by the player's current zone using the Zone column in weapon/armor files. If the best-in-slot is in a future zone, offer the best current-zone alternative first, then mention a better option exists later (spoiler gated).
+
+**When user asks about a specific weapon type or monstie**: Start with their choice, then recommend the best role-matching armor + genes to complement it. Don't force a role — adapt to what they're using.
+
 ## SEARCH FLAG: WHEN TO SEARCH THE WEB
 
 The local data is based on launch-window sources (March–April 2026). **Search the web** when:

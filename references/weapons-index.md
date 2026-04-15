@@ -35,6 +35,42 @@ For a specific weapon type's full catalog, see the per-type file listed below.
 | Gunlance | Lagia Burst | Thunder | GL Mastery (M), Hail Cutter + Burst Fire |
 | Gunlance | Aknosom Gunlance | Fire | GL Mastery (M), Charged Shelling + Hail Cutter |
 
+## Top Picks by Role
+
+### DPS (maximize HP damage)
+| Weapon | Why |
+|---|---|
+| Epitaph Blade (GS) | GS Mastery (M), CRSH output for big Charged Slash hits |
+| Reaver "Cruelty" (LS) | Iai Mastery (L), 5 skills, heavy CRSH — sustained DPS king |
+| Diablos Hammer | Striking Secret (L), Perfect Strike (ATK) — raw power |
+
+### Wyvernsoul / Topple (maximize gauge depletion)
+| Weapon | Why |
+|---|---|
+| Yeti Hammer | Perfect Strike (HVY) + Striking Secret — HVY boosts Wyvernfell massively |
+| Diablos Hammer | Striking Secret (L) + only weapon with basic-attack gauge damage |
+| Spongia Bow | Highest Wyvernfell + Exhaust Coating (boosts gauge damage) |
+| Veldian Sibilus (HH) | Wyvernfell Up (M) buff to entire party + Fettered Melody |
+
+### Support / Team Play
+| Weapon | Why |
+|---|---|
+| Hydros Horn (HH) | Mending Musician (L), 7 skills, full healing/buff/melody kit |
+| Duke's Grail (HH) | Mending Musician (L), Magnificent Trio (ATK) — buff + burst |
+| Lagia Burst (GL) | GL Mastery + Taunt + Guard — draw aggro, protect team |
+
+### Tank / Sustain
+| Weapon | Why |
+|---|---|
+| Lagia Burst (GL) | Guard + Taunt + Derring Guard — tankiest option |
+| Aknosom Gunlance | GL Mastery (M), Charged Shelling + Guard |
+
+### Status Control
+| Weapon | Why |
+|---|---|
+| Veldian Arcum (Bow) | Deft Hands (L), 3 deco slots — max coating flexibility |
+| Iceflinger (Bow) | Deft Hands (L), Aerial Aim (ATK) — burst + coatings |
+
 ## Monster → Weapon Lookup (non-obvious names only)
 
 **Spoiler note:** In-game, material sources show as ??? until discovered. Ask before revealing source monsters. T1/T2/T3 may require different monsters.
