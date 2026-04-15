@@ -37,7 +37,11 @@ Double Attacks deal massive damage — often highest single-turn output. Coordin
 ## Wyvernfell (stat)
 Wyvernfell is a **per-skill stat** shown alongside Power and Stamina cost on every Active Skill. It determines how much damage that skill deals to the enemy's **Wyvernsoul Gauge** — it does NOT affect HP damage.
 
-**Example:** A skill showing 70 Power / 40 Wyvernfell / 20 Stamina deals 70 HP damage and 40 gauge damage per use.
+**Formula (source: Les Carnets):** Gauge damage = **Move Wyvernfell × Monstie Wyvernfell stat** (both act as percentages, multiplied together).
+- Move Wyvernfell range: **10–70** (only Active Skills; regular attacks = 0 except Hammer)
+- Monstie base Wyvernfell range: **36–60**, plus **+5 to +15** from Bingo bonuses (species-dependent)
+- Scaling is multiplicative: 84 Wyvernfell monstie deals **2x** gauge damage vs 42. A 40 Wyvernfell move deals **4x** vs a 10.
+- **Critical hits: 1.5x Wyvernsoul damage**
 
 **What deals Wyvernfell damage:**
 - Active Skills from Rider and Monstie (each skill's Wyvernfell value)
@@ -52,14 +56,35 @@ Wyvernfell is a **per-skill stat** shown alongside Power and Stamina cost on eve
 |---|---|---|
 | BRK | +Wyvernfell | +Stamina cost |
 | CRSH | ++Wyvernfell | +Stamina cost |
-| BLNT | +Wyvernfell | -Skill Power (HP damage) |
+| BLNT | +Wyvernfell (Hammer: +15 vs base) | -Skill Power (HP damage) |
 | HVY | ++Wyvernfell | -Skill Power (HP damage) |
 | SKL | -Wyvernfell | +Skill Power |
 | STR/ATK | No change | +Skill Power + Stamina |
 | STAB/FLSH | No change | +Crit Rate |
 | XPRT/TLNT | No change | -Stamina, -Skill Power |
 
-**Boosting Wyvernfell further:** Hunting Horn's Wyvernfell Up buff, Bow's Exhaust Coating, Dracophage Shot (applies Wyvernfell Def Down debuff on enemy — synergizes with Dragon Buster passive gene).
+**Only two buff types affect gauge damage:**
+
+Wyvernfell Up (increases Wyvernsoul damage, 3 turns):
+| Tier | Sources |
+|---|---|
+| S | Composure (Egg Skill, stackable) |
+| M | Storm Veil, Ice Armor / Ice Armor(+), Blade Rush |
+| L | Icebreaker (Egg Skill), Pump Up |
+
+Wyvernsoul Defense Down (reduces enemy gauge resistance, S tier, 3 turns, **stackable**):
+- Surface Break (Egg Skill), Dragon Blast, **Pickaxe Beak** (stackable!), Dracophage Shot, Berserk Slide+
+
+**Key passive:** Dragon Buster — flat **+25 Wyvernfell** stat boost. Synergizes with Dracophage Shot's Wyvernsoul Def Down.
+
+**Best Wyvernfell monsties:**
+| Species | Wyvernfell | Notes |
+|---|---|---|
+| Chatacabra | 56 base + 5 bingo = 61 | Best for Kinship Attacks |
+| Paolumu | 60 total | Kinship Attack: 120 Wyvernfell AoE |
+| Yian Garuga | 44 base + 15 bingo = 59 | 10% base Crit (1.5x synergy) |
+
+**Best Wyvernfell move:** Pickaxe Beak — 40 Wyvernfell, 15 stamina, stacks Wyvernsoul Def Down for multiplicative gains each turn.
 
 ## Wyvernsoul Gauge & Synchro Rush
 The Wyvernsoul Gauge is a bar displayed below enemy monsters' HP bars — their "fighting spirit." Depleting it causes the monster to become vulnerable.

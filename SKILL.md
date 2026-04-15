@@ -77,6 +77,7 @@ Slash → tails/wings | Blunt → heads/shells | Pierce → bodies/soft spots
 
 ## READING SCREENSHOTS
 
+### Monstie Header Icons
 When the user shares a monstie screenshot, the icons next to the monstie name read:
 **(attack type) (element) (bonus element)**
 
@@ -84,8 +85,40 @@ When the user shares a monstie screenshot, the icons next to the monstie name re
 - Second icon: Primary element (Fire/Water/Thunder/Ice/Dragon/Non-Elem)
 - Third icon: Bonus element from Dual Element system (absent if single-element)
 
-The stat panel shows: HP, Attack, Crit Rate, Wyvernfell, Speed, Defense, Stamina (Starting/Max/Recovery), Kinship Gauge, Elem Res, and the 3×3 gene grid.
+### Stat Panel
+Shows: HP, Attack, Crit Rate, Wyvernfell (36-60 base + bingo bonus), Speed, Defense, Stamina (Starting/Max/Recovery), Kinship Gauge, Elem Res, and the 3×3 gene grid.
 
+### Gene Grid Visual Language (3×3)
+Each gene cell encodes three pieces of info via visuals:
+
+**Color = Element:**
+- Fire (red), Water (blue), Thunder (yellow), Ice (light blue/cyan), Dragon (purple), Non-Elem (grey/white)
+- Rainbow Gene: multicolored/prismatic
+
+**Icon = Attack Type:**
+- Power (claw/fist icon), Speed (wing/feather icon), Technical (eye/target icon), No Type (blank/circle)
+
+**Border = Tier:**
+- S/M genes: normal thin border
+- L genes: distinct thicker border/outline
+- XL genes: prominent glowing/bold outline
+
+**Bingo lines:** Completed bingo lines glow/highlight across the grid.
+
+### Monstie View Screens
+The monstie management UI has these views:
+- **Monstie List**: all monsties with type/element icons. Filterable: ALL → by element (Fire/Water/Thunder/Ice/Dragon/Non-Elem) → by type (Power/Speed/Technical)
+- **Monstie Details**: stats panel + gene grid + tendency info
+- **Gene View**: expanded grid showing skill names per cell. Used for Rite of Channeling.
+
+### Skill Description Display
+When viewing a skill in-game:
+- Name + affinity suffix shown (e.g., "Charged Slash (BRK)")
+- Three stats displayed: **Power / Wyvernfell / Stamina cost**
+- Type icon (P/S/T) and Element icon
+- Active vs Passive indicator
+
+### Overworld Icons
 **Caution icon**: The dragon-shaped icon above overworld monsters (red/yellow) means the monster is a much higher level than you. Can be toggled in Options > Game Settings > Caution Icon Display.
 
 ## PROGRESSION CONTEXT & SPOILER PROTOCOL
