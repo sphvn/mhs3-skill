@@ -103,53 +103,58 @@ C1  C2  C3     Diagonal lines: A1-B2-C3, A3-B2-C1
 
 ---
 
-## Noteworthy Passive Skills (with actual values)
+## Passive Skill Values by Tier (source: MonsterBuddy.app)
+
+Most passives follow a **5/10/15/20% linear scaling** (S/M/L/XL). This pattern is confirmed for the skills below. Skills where only XL is verified are marked — lower tiers likely follow the same pattern but are unconfirmed.
+
+**Use these numbers for build trade-offs:** A type bingo gives +5% multiplicative damage. So swapping a gene that breaks a bingo is worth it if the new passive gives ≥5% benefit to compensate.
 
 ### Offense
-| Skill | Element | Type | Effect |
-|---|---|---|---|
-| [Element] Atk Boost (XL) | varies | Power | +20% damage for that element's attacks |
-| Dancer (XL) | Water | Speed | +20% damage dealt and -20% damage taken at full HP |
-| All-Out (XL) | Dragon | Power | Active skill damage +30%, stamina cost +20% |
-| Critical (XL) | Dragon | Speed | Crit Rate +15% |
-| Salt in the Wound (XL) | Non-Elem | Power | +20% damage vs status-afflicted targets |
+| Skill | Elem | Type | S | M | L | XL |
+|---|---|---|---|---|---|---|
+| [Elem] Atk Boost | varies | Power | +5% | +10% | +15% | **+20% (multiplicative)** |
+| Non-Elem Atk Boost | Non-Elem | Power | +5% | +10% | +15% | +20% |
+| Dancer | Water | Speed | +5%/−5% | +10%/−10% | +15%/−15% | +20% dmg/−20% taken (full HP) |
+| All-Out | Dragon | Power | +12% dmg | +18% | +24% | +30% (stamina ×1.2 at all tiers) |
+| Critical | Dragon | Speed | ~+5%? | ~+7-10%? | ~+10-12%? | **+15% crit rate** |
+| Salt in Wound | Non-Elem | Power | +5% | +10% | +15% | +20% vs status targets |
+| Critical Kinship | Thunder | — | ? | ? | ? | **+15 Kinship per crit** |
 
 ### Stamina
-| Skill | Element | Type | Effect |
-|---|---|---|---|
-| Stamina Surge (XL) | Thunder | Speed | Stamina Recovery +6 per turn |
-| Stamina Boost (XL) | Water | Power | Starting Stamina +20 |
+| Skill | Elem | Type | S | M | L | XL |
+|---|---|---|---|---|---|---|
+| Stamina Surge | Thunder | Speed | ? | ? | ? | **+6 recovery/turn** |
+| Stamina Boost | Water | Power | ? | ? | ? | **+20 starting stamina** |
 
 ### Survivability
-| Skill | Element | Type | Effect |
-|---|---|---|---|
-| Health Boost (XL) | Non-Elem | Power | HP +20% |
-| [Element] Def Boost (XL) | varies | Tech | -30% damage from that element |
-| All-Elem Def Boost (XL) | Non-Elem | Tech | -10% damage from all elements |
-| Self-Heal (XL) | Fire | Speed | Heal 20% of max HP each turn |
-| Crit-Heal (XL) | Dragon | None | Heal 30% of max HP on crit |
-| Divine Blessing (XL) | Non-Elem | None | Medium chance to take only 50% damage |
-| Tenacity (M) | Ice | Power | Survive one fatal hit, heal 50 HP |
-| Panacea (XL) | Dragon | Power | Can negate abnormal statuses |
+| Skill | Elem | Type | S | M | L | XL |
+|---|---|---|---|---|---|---|
+| Health Boost | Non-Elem | Power | +5% HP | +10% | +15% | +20% |
+| [Elem] Def Boost | varies | Tech | ? | ? | ? | **−30% elem dmg** |
+| All-Elem Def Boost | Non-Elem | Tech | ? | ? | ? | **−10% all dmg** |
+| Self-Heal | Fire | Speed | slight | small | decent | **20% max HP/turn** |
+| Crit-Heal | Dragon | — | ? | ? | ? | **30% max HP on crit** |
+| Divine Blessing | Non-Elem | — | minuscule | slight | low | medium chance to halve dmg |
+| Tenacity | Ice | Power | survive fatal +slight HP | +some HP | +decent HP | (no XL) |
+| Panacea | Dragon | Power | — | — | — | Negate abnormal statuses |
 
 ### Kinship Gauge
-| Skill | Element | Type | Effect |
-|---|---|---|---|
-| Soul Kinship (XL) | Non-Elem | Power | Kinship Gauge generation +40% |
-| Critical Kinship (XL) | Thunder | None | +15 Kinship on critical hit |
-| HtH Master (XL) | Ice | Tech | +12 Kinship when winning a Head-to-Head |
+| Skill | Elem | Type | S | M | L | XL |
+|---|---|---|---|---|---|---|
+| Soul Kinship | Non-Elem | Power | ? | ? | ? | **×1.4 (+40%)** |
+| HtH Master | Ice | Tech | ? | ? | ? | **+12 Kinship per H2H** |
 
 ### Status
-| Skill | Element | Type | Effect |
+| Skill | Elem | Type | Effect |
 |---|---|---|---|
-| Inflict Rate Up (XL) | Non-Elem | None | Status infliction rate increased |
+| Inflict Rate Up | Non-Elem | — | Increases status infliction (no exact % published) |
 
 ### Under 50% HP (risk/reward)
-| Skill | Element | Type | Effect |
-|---|---|---|---|
-| Heroics (XL) | Fire | Power | Damage dealt +25% |
-| Vigilance (XL) | Ice | Tech | Crit Rate +40% |
-| Partner (XL) | Thunder | None | Kinship Gauge generation +100% |
+| Skill | Elem | Type | S | M | L | XL |
+|---|---|---|---|---|---|---|
+| Heroics | Fire | Power | ? | ? | ? | **+25% damage** |
+| Vigilance | Ice | Tech | ? | ? | ? | **+40% crit rate** |
+| Partner | Thunder | — | ? | ? | ? | **×2.0 (+100%) Kinship gen** |
 
 **Important**: Passive genes with the SAME NAME do not stack. Using both Critical (L) and Critical (XL) wastes a slot — only the highest applies.
 
