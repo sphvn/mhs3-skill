@@ -1,102 +1,18 @@
 # MHS3 — Monster Hunter Stories 3 Factual Reference Skill
 
-A Claude skill providing verified, non-hallucinated game data for **Monster Hunter Stories 3: Twisted Reflection**.
+A Claude skill that prevents LLM hallucination of Monster Hunter Stories 3: Twisted Reflection facts. Routes queries through [SKILL.md](SKILL.md) to one of 14 domain cheat sheets, with 39 grep-addressable PSV lookup files (5,200+ rows) for deep detail. Run `python3 .xlsx-source/extract.py` to regenerate the PSVs after a patch.
 
-## Why This Exists
+## Data Sources (all credit to these projects)
 
-LLMs confidently hallucinate MHS3 data from other Monster Hunter titles (World, Rise, Stories 2). This skill serves as a local source of truth with factual game data sourced from [mhstories3.wiki](https://mhstories3.wiki), [Game8](https://game8.co), and [Les Carnets de la Wycadémie](https://lescarnetsdelawycademie.fr/building-the-perfect-monstie/).
+All factual data in this skill was extracted from or cross-referenced with:
 
-## Architecture
+- **Full game datamine** — [docs.google.com/spreadsheets/d/1JvLmNY7l2jOKCk7QbUYmeK87xvzQzXVUJIgFX9bYaqk](https://docs.google.com/spreadsheets/d/1JvLmNY7l2jOKCk7QbUYmeK87xvzQzXVUJIgFX9bYaqk/edit?gid=603086227#gid=603086227) (147 sheets of game tables)
+- **MHS3 monstie stats** — [docs.google.com/spreadsheets/d/1p5N1NJAN1SGvWG1hQ7kzKkkwSnjm70eHBPYYovG0U64](https://docs.google.com/spreadsheets/d/1p5N1NJAN1SGvWG1hQ7kzKkkwSnjm70eHBPYYovG0U64/edit?gid=0#gid=0) (88 monsties with full stats + bingo bonuses)
+- **MonsterBuddy** — [monsterbuddy.app/3](https://monsterbuddy.app/3) (monsties, monsters, eggs, habitats, egg-powers, genes, riding-actions)
+- **Capcom official manual** — [manual.capcom.com/mhst3/en/switch2/](https://manual.capcom.com/mhst3/en/switch2/) (scraped to `.xlsx-source/capcom-manual/`; 213 items across 9 categories)
+- **Les Carnets de la Wycadémie** (Masuku) — [Building the Perfect Monstie](https://lescarnetsdelawycademie.fr/building-the-perfect-monstie/) and [Wyvernfell](https://lescarnetsdelawycademie.fr/wyvernfell/) essays for advanced mechanics and formulas
+- **Reddit stamina guide by /u/TheMobDylan** — [r/MonsterHunterStories/1sobnlk](https://www.reddit.com/r/MonsterHunterStories/comments/1sobnlk/guideresource_a_basic_stamina_guide_for_mhs3/) for stamina archetypes and rotation breakpoints
+- **Game8 MHS3** — [game8.co/games/Monster-Hunter-Stories-3](https://game8.co/games/Monster-Hunter-Stories-3/archives/586383) for the tier list (updated April 7, 2026)
+- **mhstories3.wiki** — [mhstories3.wiki](https://mhstories3.wiki) for general wiki reference
 
-Designed for Sonnet and lighter models with progressive context loading. Hybrid architecture: global reference files for direct factual lookups + zone advisor files for progression-aware recommendations.
-
-```
-mhs3/
-├── SKILL.md                          (~1.8K tokens — routing, core mechanics, spoiler protocol, screenshot rules)
-├── references/
-│   ├── monsties.md                   (~2.5K tokens — 88 monsties + tier list + regional team recs)
-│   ├── genes-and-builds.md           (~2K tokens — gene system, affinity effects, bingo, passives, builds)
-│   ├── gene-sources.md               (~1.5K tokens — gene → monstie → region mapping, zone farming guide)
-│   ├── building-guide.md             (~1.8K tokens — tendencies, dual element, ecosystem rank, archetypes)
-│   ├── combat-weapons.md             (~3.5K tokens — PST triangle, H2H, Wyvernfell/Wyvernsoul, weapon mechanics, status effects, field tips)
-│   ├── spawn-conditions.md           (~2K tokens — day/night spawns, habitat restoration, mutations, zone elements, dual-element farming)
-│   ├── weapons-index.md              (~1K tokens — cross-type overview + standout picks + monster→weapon lookup)
-│   ├── weapons-great-sword.md        (~500 tokens — 29 Great Swords + Zone column)
-│   ├── weapons-long-sword.md         (~500 tokens — 29 Long Swords / Katanas + Zone column)
-│   ├── weapons-hammer.md             (~600 tokens — 37 Hammers + Zone column)
-│   ├── weapons-hunting-horn.md       (~500 tokens — 29 Hunting Horns + Zone column)
-│   ├── weapons-bow.md                (~400 tokens — 19 Bows + Zone column)
-│   ├── weapons-gunlance.md           (~400 tokens — 17 Gunlances + Zone column)
-│   ├── armor.md                      (~2K tokens — ~85 armor sets sorted by defense + Zone column + monster→armor lookup)
-│   ├── skills-and-decorations.md     (~800 tokens — skill system overview + decoration mechanics)
-│   ├── eggs.md                       (~1.2K tokens — patterns, potency, locations, SR tickets, farming)
-│   └── battle-allies.md              (~750 tokens — 6 partners, tier rankings, scenario picks)
-├── zones/                            (curated progression advisors — NOT data copies)
-│   ├── azuria.md                     (~500 tokens — early game progression guide)
-│   ├── canalta.md                    (~500 tokens — mid game progression guide)
-│   ├── tarkuan.md                    (~500 tokens — mid-late game progression guide)
-│   ├── serathis.md                   (~500 tokens — late game progression guide)
-│   └── postgame.md                   (~500 tokens — elder dragons & endgame guide)
-└── README.md
-```
-
-**Typical query**: ~2–4K tokens (SKILL.md + 1 reference file)
-**Zone advisory**: ~2.3K tokens (SKILL.md + zone file)
-**Full build planning**: ~6K tokens (SKILL.md + zone + genes + gene-sources)
-**Full load**: ~22K tokens (all files)
-
-Weapon catalog is split by type — asking about Long Swords loads only the 29 katanas (~500 tokens), not all 160+ weapons. All weapon and armor files now include a **Zone column** (Shop/Az/Ca/Ta/Se/PG) for progression-aware filtering.
-
-## What's Covered
-
-- **88 monsties** — element, attack type, rank, region, species classification, regional team recs
-- **Gene system** — 3×3 grid, Bingo mechanics (multiplicative stacking), Rainbow Gene strategy
-- **Affinity Effects** — all 16 skill modifier suffixes (STR, ATK, SKL, CRFT, etc.)
-- **Passive skills** — full table with actual stat values from in-game testing
-- **Tier list** — S through D rankings with search flag for post-launch updates
-- **Combat** — PST triangle, Head-to-Head, Double Attacks, Kinship, Wyvernsoul/Wyvernfell mechanics, Synchro Rush
-- **Weapon mechanics** — per-type detailed mechanics (Bow coatings, HH melodies, GS/LS gauges, Hammer stun, GL shells)
-- **Status effects** — all ailments with mechanics, durations, cures, Inflict Rate Up interaction
-- **Weapon catalog** — 160+ weapons split by type (GS, LS, Hammer, HH, Bow, GL) with elements, deco slots, skills, monster→weapon lookup
-- **Armor catalog** — ~85 armor sets with defense, deco slots, skills, sorted by defense + top picks by role + monster→armor lookup
-- **Spawn conditions** — day/night spawns, invasive monsters, habitat restoration, mutations, zone elements
-- **Skills & decorations** — weapon vs armor deco distinction, weapon deco catalog by type, armor deco passives, acquisition methods
-- **Eggs** — patterns by genus, potency levels, locations by region, SR Expedition Tickets
-- **Battle allies** — all 6 partners with weapons, elements, monsties, per-scenario recommendations
-- **Gene sources** — gene → monstie → region mapping for farming answers
-- **Advanced building** — tendencies, dual element math, ecosystem rank, excursion bonuses, build archetypes
-- **Zone progression** — curated advisor guides for Azuria, Canalta, Tarkuan, Serathis, Post-game
-- **Spoiler protocol** — zone-aware recommendations that avoid revealing future content
-- **Elder Dragons** — unlock pipeline, unique abilities, night-only spawns
-- **Screenshot interpretation** — monstie icon reading (attack type / element / bonus element)
-
-## Data Freshness
-
-Base data sourced from launch window (March–April 2026). The skill includes search flags instructing Claude to web-search for:
-- Balance patches and updates
-- DLC content
-- Meta shifts and tier changes
-- Community-discovered strategies
-
-## Installation
-
-Drop the `mhs3/` directory into your project's skill folder, or symlink it:
-
-```bash
-# As a project skill
-cp -r mhs3/ /path/to/project/.claude/skills/mhs3
-
-# As a user skill (available across all repos)
-cp -r mhs3/ ~/.claude/skills/mhs3
-```
-
-## Contributing
-
-As you play MHS3, add factual data (screenshots, stat tables, mechanics) via PR. The skill is most valuable for data that models would otherwise fabricate from mainline MH knowledge.
-
-## Sources
-
-- [mhstories3.wiki](https://mhstories3.wiki) — Primary wiki/database
-- [Les Carnets de la Wycadémie](https://lescarnetsdelawycademie.fr/building-the-perfect-monstie/) — Advanced building methodology (Masuku)
-- [Game8 MHS3](https://game8.co/games/Monster-Hunter-Stories-3/archives/584376) — Monstie data cross-reference
-- In-game screenshots and testing
+Huge thanks to the datamine authors, MonsterBuddy team, Masuku, TheMobDylan, Game8 writers, and the r/MonsterHunterStories community. This skill is merely a structured reformatting of their work so LLMs stop hallucinating. All factual credit belongs to them.
