@@ -1,8 +1,8 @@
 # Armor — MHS3
 
-Armor equips on the **Rider** (not monsties). ~93 sets. Each provides Defense, Deco Slots, and Skills.
+Armor equips on the **Rider** (not monsties). 87 sets. Each provides Defense, Deco Slots, Skills, and six **elemental resistances** (non_elem, fire, water, thunder, ice, dragon).
 
-**Elemental resistances** are displayed in-game per set. Exact values are currently not in the datamine (see note in `armor.psv`). Cross-reference with MonsterBuddy if needed.
+**Resistance tiers** (as displayed in-game): `neutral` (blank), `resist` (↑), `high_resist` (↑↑), `weak` (↓), `extra_weak` (↓↓). Sourced from [gmtreks.com](https://gmtreks.com/monster-hunter-stories-3/armor) (credit: GameTrek).
 
 **Upgrade tiers**: T1 uses primary monster materials. T2 adds a secondary monster. T3 adds a tertiary monster + Armor Spheres. Some armor caps at T2.
 
@@ -93,13 +93,15 @@ Most armor is named after its source monster. This table covers cases where the 
 | Diablos Nero | Fire | 116 | 2 | Ta | Dragon Buster (M), Slugger (L), Partbreaker (M) |
 | Regios | Fire | 114 | 3 | Ta | Critical (L), Antibleed (L), Evasion Ability (M) |
 
-For the complete 93-armor catalog: `cat armor/armor.psv`.
+For the complete 87-armor catalog: `cat armor/armor.psv`.
 
 ## Deep Lookup
 
-- `cat armor/armor.psv` — all 93 armor sets with skills
+- `cat armor/armor.psv` — all 87 armor sets with skills + resistances
 - `grep "^Rath Soul" armor/params.psv` — per-level defense + materials
 - `grep -i "critical (xl)" armor/armor.psv` — armor with a specific skill
+- `grep "|extra_weak|" armor/armor.psv` — armor with any ↓↓ weakness
+- `awk -F'|' '$3=="high_resist"' armor/armor.psv` — armor with fire ↑↑
 - `cat armor/decos.md` — armor decoration catalog
 
 ## See Also
